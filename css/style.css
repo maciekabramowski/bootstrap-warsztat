@@ -1,0 +1,78 @@
+/*
+font-family: 'Droid Serif', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+.page-header {
+    height: 100vh;
+    background-image: url(../img/header/pictures_on_the_wall.jpg);
+    background-size: cover;
+    margin: 0;
+    position: relative;
+    
+}
+
+.navbar {
+    background: transparent;
+    background-color: transparent;
+}
+#nav-id>li>a {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#navbar-brand-id{
+    font-family: 'Droid Serif', serif;
+    font-style: italic;
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.h1-h1{
+    position: absolute;
+    top: 30%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    opacity: 1;
+    z-index: 99;
+}
+
+#nav-button{
+    border-color: #fff;
+    
+}
+
+span.icon-bar {
+    background-color: #fff;
+}
+
+#header-button {
+    display: block;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    background-color:  #0ed8d6;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 40px;
+}
+
+/*
+.background-div {
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    opacity: 0.4;
+}*/
+
+.section-services {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
