@@ -4,18 +4,39 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto Slab', serif;
 */
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+}
+
 .page-header {
     height: 100vh;
-    background-image: url(../img/header/pictures_on_the_wall.jpg);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/header/pictures_on_the_wall.jpg);
     background-size: cover;
     margin: 0;
     position: relative;
     
 }
 
+.page-header h1{
+    font-size: 4em;
+}
+
+.page-header h2{
+    font-family: 'Droid Serif', serif;
+    font-style: italic;
+}
+
+
 .navbar {
     background: transparent;
     background-color: transparent;
+    border: 0;
 }
 #nav-id>li>a {
     color: #fff;
@@ -23,17 +44,27 @@ font-family: 'Roboto Slab', serif;
     font-weight: 700;
 }
 
+#nav-id>li>a:hover{
+    color: #0ed8d6;
+    background-color: transparent;
+}
+
 #navbar-brand-id{
     font-family: 'Droid Serif', serif;
     font-style: italic;
     font-weight: 700;
     color: #fff;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
-.h1-h1{
+#navbar-brand-id:hover{
+    color: #0ed8d6;
+}
+
+.header-caption{
     position: absolute;
-    top: 30%;
+    top: 50%;
+    transform: translateY(-50%);
     right: 0;
     left: 0;
     margin: 0 auto;
@@ -41,6 +72,7 @@ font-family: 'Roboto Slab', serif;
     color: #fff;
     opacity: 1;
     z-index: 99;
+    text-align: center;
 }
 
 #nav-button{
@@ -76,3 +108,19 @@ span.icon-bar {
     width: 100%;
     position: relative;
 }
+
+a.btn-blue, .btn-blue{
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6;
+   font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    transition: all .3s;
+    padding: 15px 30px;
+}
+
+a.btn-blue:hover, .btn-blue:hover{
+    background-color: #fff;
+    border: 1px solid #0ed8d6;
+    color: #0ed8d6;
+}
+
