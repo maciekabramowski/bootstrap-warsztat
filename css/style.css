@@ -292,6 +292,12 @@ a.btn-blue:hover, .btn-blue:hover{
     background-image: url(../img/portfolio/box_of_cookies.jpg);
     }
 
+#team {
+    height: 150vh;
+    width: 100%;
+     padding: 100px 30px;
+}
+
 
 
 
