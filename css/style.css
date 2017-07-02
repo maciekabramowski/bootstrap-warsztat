@@ -221,6 +221,18 @@ a.btn-blue:hover, .btn-blue:hover{
     background-color: #fff;
     width: 100%;
     height: 100%;
+    overflow: hidden;
+}
+
+/*
+.overflow-div{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+*/
+.overfl {
+    overflow: hidden;
 }
 
 .div-image {
@@ -228,6 +240,7 @@ a.btn-blue:hover, .btn-blue:hover{
     height: 300px;
     background-size: cover;
     position: relative;
+    transition: all 1s ease;
 }
 
 .mask {
@@ -244,12 +257,17 @@ a.btn-blue:hover, .btn-blue:hover{
     display: none;
 }
 
+.div-image:hover {
+    transform: scale(1.3);
+}
+
 .div-image:hover>div{
     display: block;
 }
 
 #div-image1 {
     background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+    background-position: bottom;
 }
 
 #div-image2 {
