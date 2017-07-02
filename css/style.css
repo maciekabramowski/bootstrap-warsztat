@@ -240,7 +240,7 @@ a.btn-blue:hover, .btn-blue:hover{
     height: 300px;
     background-size: cover;
     position: relative;
-    transition: all 1s ease;
+    transition: all .7s ease;
 }
 
 .mask {
@@ -254,7 +254,9 @@ a.btn-blue:hover, .btn-blue:hover{
     line-height: 300px;
     text-align: center;
     font-size: 5em;
-    display: none;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .7s ease;
 }
 
 .div-image:hover {
@@ -262,7 +264,7 @@ a.btn-blue:hover, .btn-blue:hover{
 }
 
 .div-image:hover>div{
-    display: block;
+   opacity: 1;
 }
 
 #div-image1 {
