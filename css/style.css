@@ -159,10 +159,15 @@ a.btn-blue:hover, .btn-blue:hover{
     background-color: #fff;
     color: #0ed8d6;
 }
+
+.div-icon i,
+.div-icon span{
+    transition: all 0.5s ease;
+}
+
 .div-icon:hover i,
 .div-icon:hover span{
     transform: rotate(360deg);
-    transition: all 0.5s ease;
 }
 
 .par-services {
